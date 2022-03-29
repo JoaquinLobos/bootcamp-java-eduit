@@ -18,15 +18,22 @@ public class ConstructorAlumno {
 		}
 	}
 	
-	public static void Debugger(ConstructorAlumno alumno) {
-		System.out.println("nombre: " + alumno.nombre + " " + alumno.apellido);
-		System.out.println("cantidad de examenes realizados en el anio: " + alumno.examenesAlumno);
+	public static void Debugger(ConstructorAlumno alumno, int nota) {
 		
-		for (int i1 : alumno.notasExamenes) {
-			int contador = 0;
-			System.out.println("nota " + contador + ": " + i1);
-			contador++;
-		}
+		System.out.println("nombre: " + alumno.nombre + " " + alumno.apellido);
+		System.out.println("nota: " + nota);
+		
+		
+		
+		
+		
+		
+		//System.out.println("cantidad de examenes realizados en el anio: " + alumno.examenesAlumno);
+		//int contador = 0;
+		//for (int i1 : alumno.notasExamenes) {
+		//  System.out.println("nota " + contador + ": " + i1);
+		//	contador++;	
+		//}
 	}
 
 }
